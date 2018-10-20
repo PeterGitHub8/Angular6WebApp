@@ -13,9 +13,6 @@ app.use(bodyParser.json());
 
 mongoose.connect('mongodb://127.0.0.1:27017/productList', { useNewUrlParser: true });
 
-// var mongojs = require('mongojs');
-// var db = 'mongodb://localhost:27017/productList';
-
 const connection = mongoose.connection;
 connection.once('open', () => {
   console.log('MongoDb database connection established successfuly!');

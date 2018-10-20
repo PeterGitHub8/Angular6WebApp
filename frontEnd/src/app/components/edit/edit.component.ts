@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import {Router, ActivatedRoute} from '@angular/router';
-import {FormGroup, FormBuilder, Validators} from '@angular/forms';
+import { Router, ActivatedRoute } from '@angular/router';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
-import {MatSnackBar} from '@angular/material';
+import { MatSnackBar } from '@angular/material';
 
-import {ProductService} from '../../product.service';
-import {Product} from '../../product.model';
+import { ProductService } from '../../product.service';
+import { Product } from '../../product.model';
 
 
 @Component({

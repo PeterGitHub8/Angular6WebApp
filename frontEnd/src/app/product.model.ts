@@ -4,4 +4,4 @@ export Interface Product {
   description: String,
   price: String,
   stock: String
-}
+};
